@@ -457,6 +457,9 @@ textarea::placeholder {
   }
 }
 @media (max-width: 620px){
+  .container{
+    max-width: 540px;
+  }
   .nav__logo img{
     position: absolute;
       top: 150px;
@@ -475,6 +478,9 @@ textarea::placeholder {
 
 }
 @media (max-width: 534px){
+  .container{
+    max-width: 450px;
+  }
   .work__overlay{
     font-size: 20px;
   }
@@ -509,6 +515,9 @@ textarea::placeholder {
   }
 }
 @media (max-width: 446px){
+  .container{
+    max-width: 320px;
+  }
   .block__title{
     font-size: 15px;
   }
@@ -551,9 +560,6 @@ textarea::placeholder {
 @media (max-width: 396px){
   .nav{
     margin-left: 0;
-  }
-  .nav__link{
-    margin-right: 25px;
   }
   .btn-wrapper{
     display: flex;
@@ -627,6 +633,11 @@ textarea::placeholder {
       height: 33px;
   }
 }
+@media (max-width: 326px){
+  .container{
+    max-width: 230px;
+  }
+}
 @media (max-width: 314px){
   .service__block-img--check{
     height: 50px;
@@ -690,5 +701,13 @@ textarea::placeholder {
       left: 55px;
       width: 150px;
       height: 25px;
+  }
+}
+@media (max-width: 252px){
+  .nav__link{
+    margin-left: 20px;
+  }
+  .container{
+    max-width: 150px;
   }
 }
