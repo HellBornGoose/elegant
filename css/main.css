@@ -205,7 +205,8 @@ textarea::placeholder {
     font-weight: bold;
     font-size: 24px;
     padding-bottom: 40px;
-    color: #222222; }
+    color: #222222;
+    text-align: center; }
   .block__desc {
     font-size: 16px;
     text-align: center;
@@ -436,9 +437,7 @@ textarea::placeholder {
 }
 
 @media (max-width: 656px){
-    .nav__logo p{
-      text-align: center;
-    }
+    
     .nav__logo img{
       position: absolute;
       top: 150px;
@@ -448,6 +447,9 @@ textarea::placeholder {
     }
 }
 @media (max-width: 686px){
+  .nav__logo p{
+    text-align: center;
+  }
   .nav__logo img{
     position: absolute;
       top: 150px;
@@ -515,8 +517,20 @@ textarea::placeholder {
   }
 }
 @media (max-width: 446px){
+  .phone__title{
+    font-size: 40px;
+  }
+  .service__block-img--check{
+    height: 80px;
+    width: 80px;
+  }
   .container{
     max-width: 320px;
+  }
+  .btn-wrapper{
+    display: flex;
+    width: 300px;
+    justify-content: center;
   }
   .block__title{
     font-size: 15px;
@@ -634,8 +648,21 @@ textarea::placeholder {
   }
 }
 @media (max-width: 326px){
+  .phone__title{
+    font-size: 28px;
+  }
+  .service__block-img--check{
+    height: 50px;
+    width: 50px;
+  }
+  .service__block-img--check::before{
+    font-size: 30px;
+  }
   .container{
     max-width: 230px;
+  }
+  .btn-wrapper{
+    width: 230px;
   }
 }
 @media (max-width: 314px){
@@ -662,7 +689,7 @@ textarea::placeholder {
 }
 @media (max-width: 300px){
   .btn-wrapper{
-    width: 250px;
+    width: 230px;
   }
   .work__overlay{
     font-size: 9px;
