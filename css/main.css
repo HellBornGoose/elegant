@@ -12,6 +12,10 @@ a {
   color: #303030;
   cursor: pointer; }
 
+.nav__links p{
+  display: inline;
+}
+
 li {
   list-style: none; }
 
@@ -61,7 +65,8 @@ textarea::placeholder {
   .nav__link {
     font-size: 14px;
     margin-right: 52px;
-    color: #ffffff; }
+    color: #ffffff;
+    cursor: pointer; }
     .nav__link:last-of-type {
       margin-right: 0; }
     .nav__link:hover {
@@ -431,11 +436,7 @@ textarea::placeholder {
 }
 
 @media (max-width: 656px){
-    .nav__logo{
-      width: 60px;
-      text-align: center;
-    }
-    .nav__logo a{
+    .nav__logo p{
       text-align: center;
     }
     .nav__logo img{
@@ -444,9 +445,6 @@ textarea::placeholder {
       left: 230px;
       width: 200px;
       height: 33px;
-    }
-    .nav{
-      margin-left: 25px;
     }
 }
 @media (max-width: 686px){
@@ -489,9 +487,6 @@ textarea::placeholder {
   }
   .block__title{
     font-size: 17px;
-  }
-  .nav{
-    margin-left: 13px;
   }
 }
 @media (max-width: 476px){
